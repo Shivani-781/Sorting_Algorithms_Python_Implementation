@@ -18,7 +18,7 @@ def merge_sort(li):
                 li[k] = right[j]
                 j += 1
             k += 1
-        while i < len(left):
+        while i < len(left): # Checking if any element is left
             li[k] = left[i]
             i += 1
             k += 1
