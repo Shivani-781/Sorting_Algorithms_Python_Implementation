@@ -4,7 +4,7 @@
 
 def bubble_sort(li):
     for i in range(0, len(li)):
-        f = 0
+        f = 0  # to optimise the implementation
         for j in range(0, len(li) - i - 1):
             if li[j] > li[j + 1]:
                 li[j], li[j + 1] = li[j + 1], li[j]
@@ -17,3 +17,4 @@ arr = list(map(int, input().split()))
 bubble_sort(arr)
 for i in arr:
     print(i, end=' ')
+
