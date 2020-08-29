@@ -2,7 +2,7 @@
 # Auxiliary Space: O(1)
 
 
-def heapify(li, n, i):
+def heapify(li, n, i):  # converts into binary heap
     largest = i  # i is root element
     left = 2 * i + 1
     right = 2 * i + 2
